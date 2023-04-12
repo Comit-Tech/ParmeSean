@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class TextGame {
+  public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+    System.out.println("Welcome to the game! What is your name?");
+    String playerName = input.nextLine();
+    System.out.println("Hello, " + playerName + "!");
+
+    // Implement game mechanics here
+    // ...
+
+    System.out.println("Game over!");
+  }
+}
